@@ -40,21 +40,41 @@ body {
     background-color: #e8e9eb;
 }
 
-.button-section {
-    margin-top: auto;
+.actions {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.button-section a {
+.btn {
+    width: 100%;
     padding: 12px;
-    text-align: center;
-    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.logout {
-    background-color: #e84142;
-    color: #ffffff;
-    text-align: center;
-    border-radius: 8px;
+.caja {
+    background-color: #007bff;
+    color: white;
+}
+
+.salir {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn i {
+    margin-right: 10px; /* Espaciado entre el icono y el texto del botón */
 }
 
 .menu-item {
